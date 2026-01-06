@@ -1,0 +1,34 @@
+create folder
+create server.js and app.js
+npm init -y
+npm i nodemon
+# packages
+npm i express
+npm i dotenv
+# to start server
+npm run start
+npm run dev
+# create id on mongodb atlas
+link copy to env
+npm i mongoose
+create folder utils
+create db.js
+# for build in middleware
+npm i cookie-parser cors 
+#api
+craetefolder controller, model and routs
+create file auth.model.js in model
+create file auth.controller.js in controller
+create file auth.route.js in route
+create file hashedPassword.js in utils
+npm install bcrypt
+create file authToken.js
+npm install jsonwebtoken
+create folder config and file cloudinary.js
+npm install cloudinary
+#create id on cloudinary, get cloud name, api key, api secret
+create folder middleware and file auth.middleware.js , multer.js
+npm install multer multer-storage-cloudinary cloudinary
+create file product.schema.js in models
+create file product.controller.js in controllers
+create file product.router.js in routes

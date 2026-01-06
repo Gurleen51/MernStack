@@ -1,0 +1,34 @@
+# for creating folder and all that
+npm create vite
+project name
+react
+js
+cd project name
+npm i
+npm run dev
+
+# shade cn ui # tailwindcss
+install tailwindcss
+create file jsconfig.json
+follow steps from site
+
+add components
+
+create lottie folder
+add files 
+
+create pages folder
+create home file
+npm install react-router-dom
+create layout file
+create header file
+npm install lucide-react
+npm install swiper
+craete signin file and signup file
+npm install lottie-react
+create footer file  
+create file .env
+create folder api and file interceptor.js
+npm install axios
+npm install react-hot-toast
+npm install framer-motion

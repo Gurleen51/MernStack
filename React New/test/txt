@@ -1,0 +1,7 @@
+npm create vite
+project name
+react
+js
+cd test
+npm i
+npm run dev
