@@ -55,7 +55,7 @@
                             <li>MongoDB Database and APIs</li>
                             <li>Full Stack Web Development</li>
                         </ul>
-                        <a href="Certificate.pdf" class="btn small">View Training Certificate</a>
+                        <a href="Daily Diary/Certificate.jpeg" class="btn small">View Training Certificate</a>
                     </div>
                 </div>
             </div>
@@ -69,31 +69,45 @@
             <div class="cards">
                 <div class="task-card">
                     <h3>Task 1</h3>
-                    <p>HTML</p><a href="HTML/" class="btn">View Source</a>
+                    <p>HTML</p><a
+                        href="https://github.com/Gurleen51/MernStack/tree/092e623fdc300e1586eb6a22a940096dc0704069/HTML"
+                        class="btn">View Source</a>
                 </div>
                 <div class="task-card">
                     <h3>Task 2</h3>
-                    <p>CSS</p><a href="HTML/" class="btn">View Source</a>
+                    <p>CSS</p><a
+                        href="https://github.com/Gurleen51/MernStack/tree/092e623fdc300e1586eb6a22a940096dc0704069/CSS"
+                        class="btn">View Source</a>
                 </div>
                 <div class="task-card">
                     <h3>Task 3</h3>
-                    <p>Javascript</p><a href="Javascript/" class="btn">View Source</a>
+                    <p>Javascript</p><a
+                        href="https://github.com/Gurleen51/MernStack/tree/092e623fdc300e1586eb6a22a940096dc0704069/Javascript"
+                        class="btn">View Source</a>
                 </div>
                 <div class="task-card">
                     <h3>Task 4</h3>
-                    <p>React Development</p><a href="React New/" class="btn">View Source</a>
+                    <p>React Development</p><a
+                        href="https://github.com/Gurleen51/MernStack/tree/092e623fdc300e1586eb6a22a940096dc0704069/React%20New"
+                        class="btn">View Source</a>
                 </div>
                 <div class="task-card">
                     <h3>Task 5</h3>
-                    <p>GadgetShop Frontend</p><a href="GadgetShop/" class="btn">View Source</a>
+                    <p>GadgetShop Frontend</p><a
+                        href="https://github.com/Gurleen51/MernStack/tree/092e623fdc300e1586eb6a22a940096dc0704069/GadgetShop"
+                        class="btn">View Source</a>
                 </div>
                 <div class="task-card">
                     <h3>Task 6</h3>
-                    <p>GadgetShop Backend</p><a href="Gadget API/" class="btn">View Source</a>
+                    <p>GadgetShop Backend</p><a
+                        href="https://github.com/Gurleen51/MernStack/tree/092e623fdc300e1586eb6a22a940096dc0704069/Gadget%20API"
+                        class="btn">View Source</a>
                 </div>
                 <div class="task-card">
                     <h3>Task 7</h3>
-                    <p>Project-EduHub(Learning Management System)</p><a href="LMS/" class="btn">View Source</a>
+                    <p>Project-EduHub(Learning Management System)</p><a
+                        href="https://github.com/Gurleen51/MernStack/tree/092e623fdc300e1586eb6a22a940096dc0704069/LMS"
+                        class="btn">View Source</a>
                 </div>
             </div>
         </section>
@@ -194,22 +208,22 @@
                 entry.addEventListener('click', () => {
                     const isVisible = viewer.style.display === 'block';
                     const pdfPath = entry.getAttribute('data-pdf');
-                    
+
                     document.querySelectorAll('.pdf-viewer').forEach(v => v.style.display = 'none');
 
                     if (!isVisible) {
                         iframe.src = entry.getAttribute('data-pdf');
                         viewer.style.display = 'block';
                         setTimeout(() => {
-                            const headerOffset = 100; 
+                            const headerOffset = 100;
                             const elementPosition = viewer.getBoundingClientRect().top;
                             const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
                             window.scrollTo({
-                            top: offsetPosition,
+                                top: offsetPosition,
                                 behavior: "smooth"
                             });
-                        }, 100); 
+                        }, 100);
                     }
                 });
             });
